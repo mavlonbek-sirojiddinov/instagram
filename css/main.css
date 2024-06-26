@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Livvic', sans-serif;
+  background: #E4E4E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-box {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.btn {
+  width: 270px;
+  height: 35px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #1877f2;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn-color {
+  margin-top: 50px;
+}
+
+.or {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.input-item {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding-left: 10px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  background-color: rgb(248, 248, 248);
+  margin-top: 10px;
+  outline: none;
+}
+
+a {
+  text-align: right;
+  margin-right: 70px;
+  color: #006eff;
+  display: block;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.btn-colo {
+  margin-top: 30px;
+  background: #1877f25c;
+}
+
+.don {
+  text-align: center;
+  color: #aea9a9;
+  margin-top: 20px;
+  padding-bottom: 100px;
+}
+
+span {
+  color: #1877F2;
+}
